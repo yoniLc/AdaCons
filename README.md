@@ -1,6 +1,6 @@
 # AdaCons: Adaptive Consensus Gradients Aggregation for Scaled Distributed Training
 
-Sample Implementation of the paper ["Adaptive Consensus Gradients Aggregation for Scaled Distributed Training"]().
+Sample Implementation of the distributed gradient aggregator from the paper ["Adaptive Consensus Gradients Aggregation for Scaled Distributed Training"]().
 
 
 ## Abstract
