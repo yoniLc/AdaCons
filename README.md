@@ -21,7 +21,7 @@ Please adjust the configuration to match your system settings:
 ```bash
 torchrun --nproc_per_node=$n_local_gpus --nnodes=$n_nodes --node_rank=$rank --master_addr=$master_addr --master_port=$master_port Main.py
 ```
-Running this script (1000 iterations) give the following final loss performance.
+Running this script (1000 iterations) gives the following final loss performance.
 
 | Batch Size      | Baseline (Sum) | Adacons (32 workers) |  Adacons (8 workers) |
 |-----------------|-----------------|-----------------|-----------------
