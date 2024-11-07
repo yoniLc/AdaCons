@@ -87,7 +87,7 @@ if __name__ == '__main__':
     optimizer.aggregator = AdaConsAggregator(ddp_model, momentum=0.99)
     # optimizer.aggregator = lambda: None;optimizer.aggregator.aggregate = lambda *args: None # Dummy aggregator for baseline
     ###
-    bs = 128//world_size
+    bs = 2048//world_size
     accumulation_steps = 2
     num_iters = 1000
     for iter in range(1, num_iters+1):
