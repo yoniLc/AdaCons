@@ -32,6 +32,6 @@ Running this script (1000 iterations) gives the following final loss performance
     @article{choukroun2024adacons,
       title={Adaptive Consensus Gradients Aggregation for Scaled Distributed Training},
       author={Choukroun, Yoni and Azoulay, Shlomi and Kisilev, Pavel},
-      journal={arXiv preprint arXiv:},
+      journal={arXiv preprint arXiv:2411.03742},
       year={2024}
     }
